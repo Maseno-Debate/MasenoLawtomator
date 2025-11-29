@@ -14,7 +14,7 @@ The goal: make legal drafting easier, without needing to know Git or advanced pr
 
 ---
 
-## ✨ **What’s Inside (Starter Version)**
+## ✨ **What’s Inside**
 
 ### ✔️ **VBA Macros for Microsoft Word**
 
