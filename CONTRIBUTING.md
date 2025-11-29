@@ -1,101 +1,107 @@
-# 📢 **MasenoLawtomator Contribution Guidelines (Strict Betty Compliant)**
+# 📢 **MasenoLawtomator Contribution Guidelines (Betty-Inspired Style)**
 
 Thank you for your interest in contributing to **MasenoLawtomator**!
-This project provides legal automation tools for Maseno University LLB students. Contributions—whether VBA macros, Google Apps Script, or documentation—are welcome.
+This project provides legal automation tools for Maseno University LLB students. Contributions—including VBA macros, Google Apps Scripts, or documentation—are welcome.
 
-All code **must be strictly Betty-compliant**, ensuring readability, maintainability, and consistency.
+All code **should follow Betty-inspired principles**: clear, consistent, and maintainable formatting, proper indentation, meaningful naming, and thorough commenting.
 
 ---
 
 ## 🤝 **How to Contribute**
 
-### 1️⃣ **Submit New VBA Macros or Scripts**
+### 1️⃣ Submit New VBA Macros or Scripts
 
-* Must solve a **legal drafting or workflow problem**.
+* Must address a **legal drafting or workflow problem**.
 * Name macros and modules **clearly and descriptively**.
-* Include **inline comments** explaining purpose and key steps.
-* Test thoroughly in Microsoft Word before submission.
-* Save as `.bas` (Word) or `.gs` (Google Apps Script).
+* Include **inline comments** explaining the purpose and key steps.
+* Test thoroughly in Microsoft Word (or Google Apps Script environment) before submission.
+* Save files as `.bas` (Word) or `.gs` (Google Apps Script).
 
 ---
 
-### 2️⃣ **Improve Existing Code**
+### 2️⃣ Improve Existing Code
 
 * Fix bugs or enhance functionality without breaking existing features.
-* Maintain **strict Betty-compliant formatting**: consistent indentation, spacing, naming, and commenting.
+* Maintain **consistent indentation, spacing, naming, and commenting**.
+* Follow the repository’s **existing Betty-inspired style**.
 
 ---
 
-### 3️⃣ **Documentation & Examples**
+### 3️⃣ Documentation & Examples
 
 * Improve **README.md**, guides, or workflow instructions.
 * Provide **macro usage examples** for students.
-* Use screenshots or GIFs to help beginners understand workflows.
+* Include screenshots or GIFs to make instructions more accessible.
 
 ---
 
-### 4️⃣ **Reporting Issues**
+### 4️⃣ Reporting Issues
 
-* Open a GitHub **Issue** with clear steps to reproduce.
-* Include environment details (Word version, Windows/Mac, etc.).
+* Open a GitHub **Issue** with clear reproduction steps.
+* Include environment details (e.g., Word version, Windows/Mac, browser if relevant).
 
 ---
 
 ## 🌟 **Contribution Workflow**
 
-**Option A: Pull Request**
+### Option A: Pull Request
 
 1. Fork the repository.
-2. Create a branch for your feature or fix.
+
+2. Create a branch for your feature or fix:
 
    ```bash
    git checkout -b feature-name
    ```
-3. Commit with a clear message.
-4. Push to your fork.
-5. Open a Pull Request to the main repo.
-6. Wait for review; maintain **strict Betty compliance**.
 
-**Option B: Direct File Submission**
+3. Commit with a clear, descriptive message.
 
-* Students can submit `.bas` files directly via GitHub issues or email the maintainer.
-* Ensure the code follows **Betty style** before submission.
+4. Push the branch to your fork.
+
+5. Open a Pull Request to the main repository.
+
+6. Ensure code follows **Betty-inspired style**; reviewers may request corrections.
+
+### Option B: Direct File Submission
+
+* Students can submit `.bas` or `.gs` files directly via GitHub Issues or email the maintainer.
+* Ensure files follow **Betty-inspired formatting** before submission.
 
 ---
 
-## 📌 **Code Style Guidelines (Betty Compliant)**
+## 📌 **Code Style Guidelines (Betty-Inspired)**
 
-1. **Indentation**: Use **4 spaces**, no tabs.
-2. **Line Length**: Maximum **80 characters per line**.
-3. **Naming**:
+1. **Indentation**: Use **4 spaces per level**, no tabs.
+2. **Line Length**: Prefer **≤ 80 characters per line**; break long lines with `_` in VBA.
+3. **Naming Conventions**:
 
    * Modules: `macro_name_module`
-   * Macros: `ActionDescription_Object` (e.g., `Format_Document`)
-   * Variables: lowercase with underscores, e.g., `total_cases`
+   * Macros/Subs: `ActionDescription_Object` (e.g., `Format_Document`)
+   * Variables: lowercase with underscores (e.g., `total_cases`)
 4. **Spacing**:
 
    * One blank line between logical blocks
-   * No trailing spaces
+   * Avoid trailing spaces
 5. **Comments**:
 
-   * Every macro must have a **top-level comment block** describing its purpose, author, and usage.
-   * Inline comments for key logic.
-6. **Brackets & Syntax**:
+   * Top-level comment block for every macro describing purpose, author, and usage
+   * Inline comments for key logic or complex steps
+6. **Structure & Syntax**:
 
-   * Always use `End Sub`, `End Function`, etc. correctly.
-   * Keep blocks properly indented.
-7. **Consistency**: Follow the style already used in the repo.
+   * Always close blocks properly: `End Sub`, `End Function`, `End If`, etc.
+   * Indent blocks consistently
+7. **Consistency**: Maintain style consistent with the repository standards
 
-> Contributors who do not follow Betty compliance may have their PRs returned for correction.
+> PRs or submissions not following Betty-inspired principles may be returned for corrections.
 
 ---
 
 ## ⚖️ **Code of Conduct**
 
 * Be professional and respectful.
-* No offensive content.
-* Credit other contributors.
-* Support collaboration and mentoring.
+* No offensive or inappropriate content.
+* Credit all contributors.
+* Support collaboration and mentorship.
 
 ---
 
@@ -108,4 +114,5 @@ All contributions are licensed under **Apache License 2.0**.
 ## 👤 **Maintainer**
 
 **James E. Limbe** – Maseno University School of Law
-GitHub: **[B0mb37](https://github.com/B0mb37)**
+
+GitHub: [B0mb37](https://github.com/B0mb37)
