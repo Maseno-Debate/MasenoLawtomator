@@ -6,11 +6,11 @@
 
 ## 🎓 **Overview**
 
-**MasenoLawtomator** is a lightweight, early-stage legal automation toolkit designed to help law students at **Maseno University School of Law** work faster and produce better-formatted documents.
+**MasenoLawtomator** is a lightweight, early-stage legal automation toolkit designed to help law students at **Maseno University School of Law** draft faster and produce cleaner, better-formatted documents.
 
-This initial version focuses **only on Microsoft Word VBA macros**, allowing students to automate repetitive tasks such as formatting, numbering, citations, and document cleanup.
+This initial version focuses on **Microsoft Word VBA macros**, giving students simple automation for formatting, numbering, citations, and document cleanup.
 
-As the project grows, more scripts, templates, and tools will be added—starting simple, but building toward a full legal-tech toolkit.
+As the project grows, more tools and scripts will be added—starting simple, but evolving into a complete legal-tech toolkit.
 
 ---
 
@@ -19,15 +19,15 @@ As the project grows, more scripts, templates, and tools will be added—startin
 ### ✔️ **VBA Macros for Microsoft Word**
 
 * Auto-format assignment documents
-* Fix spacing and paragraph layout
-* Automatic numbered headings
-* Insert issue statements and case briefs
-* Quick citation-insertion helpers
-* Cleanup tools (remove double spaces, fix list levels, etc.)
+* Fix spacing & paragraph alignment
+* Automatic legal-style numbering
+* Insert issue statements & case brief skeletons
+* Quick citation helper macros
+* Cleanup tools (double spaces, weird numbering, broken formatting)
 
-### ✔️ **Macro Templates**
+### ✔️ **Ready-made Modules**
 
-Simple ready-made modules you can import into Word.
+Importable `.bas` files for immediate use.
 
 ---
 
@@ -39,7 +39,7 @@ Simple ready-made modules you can import into Word.
 git clone https://github.com/YOUR-USERNAME/MasenoLawtomator.git
 ```
 
-Or click the green **Code → Download ZIP** button.
+Or download the ZIP via **Code → Download ZIP**.
 
 ---
 
@@ -51,7 +51,7 @@ This opens the **VBA editor**.
 
 ### 3️⃣ **Import the Macros**
 
-Go to:
+In the VBA editor:
 
 ```
 File → Import File →
@@ -69,7 +69,7 @@ In Word:
 Developer → Macros → Run
 ```
 
-Or assign them to keyboard shortcuts for faster drafting.
+You can assign keyboard shortcuts for speed.
 
 ---
 
@@ -92,23 +92,24 @@ MasenoLawtomator/
 ## 🛣️ **Future Additions**
 
 * More advanced Word automation
-* Legal writing templates (opinions, affidavits, demand letters)
+* Legal writing templates (opinions, submissions, affidavits)
 * Google Docs automation (Apps Script)
 * Case-law note organizers
-* Clinic file management tools
+* Clinic file tools (intake sheets, auto-summaries)
 
 ---
 
 ## 🤝 **Contributing**
 
-Contributions, improvements, and new macros from students are welcome.
-Feel free to submit pull requests or share your own macros.
+Contributions are welcome!
+If you have useful macros or improvements, submit a pull request.
 
 ---
 
 ## 📄 **License**
 
-This project is released under the **MIT License**, allowing free use, modification, and sharing.
+This project is licensed under the **Apache License 2.0**.
+See the `LICENSE` file for full terms.
 
 ---
 
@@ -116,4 +117,4 @@ This project is released under the **MIT License**, allowing free use, modificat
 
 **James E. Limbe**
 Maseno University School of Law
-GitHub: **B0mb37**
+GitHub: **[B0mb37](https://github.com/B0mb37)**
