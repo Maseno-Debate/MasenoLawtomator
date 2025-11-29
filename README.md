@@ -96,5 +96,7 @@ See the `LICENSE` file for full terms.
 ## 👤 **Author**
 
 **James E. Limbe**
+
 Maseno University School of Law
+
 GitHub: **[B0mb37](https://github.com/B0mb37)**
