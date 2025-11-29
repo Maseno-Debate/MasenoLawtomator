@@ -1,7 +1,7 @@
 # 📢 **MasenoLawtomator Contribution Guidelines (Betty-Inspired Style)**
 
 Thank you for your interest in contributing to **MasenoLawtomator**!
-This project provides legal automation tools for Maseno University LLB students. Contributions—including VBA macros, Google Apps Scripts, or documentation—are welcome.
+This project provides legal automation tools for Maseno University LLB students. Contributions (including VBA macros, Google Apps Scripts, or any other documentation suggestions) are welcome.
 
 All code **should follow Betty-inspired principles**: clear, consistent, and maintainable formatting, proper indentation, meaningful naming, and thorough commenting.
 
