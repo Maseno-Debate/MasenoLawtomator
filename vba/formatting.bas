@@ -1,6 +1,7 @@
 ' ================================
 '   formatting.bas  
 '   Legal Document Formatter
+'   (with automatic shortcut)
 ' ================================
 
 Option Explicit
@@ -13,6 +14,9 @@ Sub FormatWholeDocument()
     Call FormatParagraphFont
     Call FormatParagraphSpacing
     Call FormatParagraphAlignment
+
+    ' Assign shortcut automatically (CTRL + ALT + A)
+    Call AssignShortcut_FormatWholeDocument
 
     MsgBox "Document formatting completed.", vbInformation
 End Sub
@@ -64,4 +68,24 @@ Sub FormatParagraphAlignment()
     For Each para In ActiveDocument.Paragraphs
         para.Range.ParagraphFormat.Alignment = wdAlignParagraphJustify
     Next para
+End Sub
+
+' -------------------------------
+'   ASSIGN SHORTCUT:
+'   CTRL + ALT + A
+' -------------------------------
+Sub AssignShortcut_FormatWholeDocument()
+    On Error Resume Next
+
+    ' Ensure the shortcut is saved globally
+    CustomizationContext = NormalTemplate
+
+    ' Clear existing shortcut if any
+    FindKey(BuildKeyCode(wdKeyControl, wdKeyAlt, wdKeyA)).Clear
+
+    ' Assign new shortcut
+    KeyBindings.Add KeyCategory:=wdKeyCategoryMacro, _
+        Command:="FormatWholeDocument", _
+        KeyCode:=BuildKeyCode(wdKeyControl, wdKeyAlt, wdKeyA)
+
 End Sub
