@@ -1,12 +1,12 @@
 # 📘 **MasenoLawtomator**
 
-*A starter collection of VBA macros for Maseno University law students.*
+*A starter collection of VBA macros for Maseno University LLB w IT students.*
 
 ---
 
 ## 🎓 **Overview**
 
-**MasenoLawtomator** is a lightweight legal automation toolkit designed to help **Maseno University LLB students** draft faster and produce cleaner, properly formatted documents.
+**MasenoLawtomator** is a lightweight legal automation toolkit designed to help **Maseno University Law students** draft faster and produce cleaner, properly formatted documents.
 
 This initial version focuses on **Microsoft Word VBA macros**, allowing students to automate formatting, numbering, citations, and document cleanup.
 
@@ -18,7 +18,7 @@ The goal: make legal drafting easier, without needing to know Git or advanced pr
 
 ### ✔️ **VBA Macros for Microsoft Word**
 
-* Auto-format assignment or clinic documents
+* Auto-format assignments or clinic documents
 * Fix spacing & paragraph alignment
 * Legal-style numbered headings
 * Insert issue statements or case brief skeletons
@@ -31,42 +31,92 @@ All macros are available as `.bas` files in the repo and can also be **copied di
 
 ---
 
-## 🚀 **How to Use the VBA Macros**
+## 🚀 **How to Use `formatting.bas`**
 
-### **Option 1: Copy-Paste**
+<details>
+<summary><b>Step 1: Enable Developer Tab in Word</b></summary>
 
-1. Open the macro file on GitHub (click the `.bas` file).
-2. Copy the entire content.
-3. Open Microsoft Word → press `Alt + F11` to open the **VBA editor**.
-4. Insert a new module → paste the code.
-5. Run your macros from **Developer → Macros → Run**.
+1. Open Microsoft Word.
+2. Go to **File → Options → Customize Ribbon**.
+3. On the right side, check **Developer**.
+4. Click **OK**.
 
----
+*The Developer tab will now appear in your Word ribbon.*
 
-### **Option 2: Download the File**
+</details>
 
-1. Click the `.bas` file → **Raw** → Right-click → **Save As**.
-2. Open Microsoft Word → press `Alt + F11`.
-3. Import the `.bas` file (**File → Import File → select the downloaded `.bas`**).
-4. Run your macros from **Developer → Macros → Run**.
+<details>
+<summary><b>Step 2: Enable Macros</b></summary>
+
+1. Go to **File → Options → Trust Center → Trust Center Settings → Macro Settings**.
+2. Select **Enable all macros** (or **Disable all macros with notification** if you want to approve macros each time).
+3. Click **OK**.
+
+*This allows your VBA macros to run safely.*
+
+</details>
+
+<details>
+<summary><b>Step 3: Import `formatting.bas`</b></summary>
+
+**Option A – Download and Import**
+
+1. Click `formatting.bas` in the `vba/` folder → **Raw** → Right-click → **Save As**.
+2. Open Word → press **Alt + F11** to open the VBA editor.
+3. Go to **File → Import File…** → select the downloaded `.bas`.
+4. The module will now appear in your project.
+
+**Option B – Copy-Paste**
+
+1. Open `formatting.bas` in GitHub → copy all code.
+2. Open Word → **Alt + F11**.
+3. Insert a new module → paste the code.
+4. Save the document.
+
+</details>
+
+<details>
+<summary><b>Step 4: Run the Macro / Use Shortcut</b></summary>
+
+1. Run via **Developer → Macros → select `FormatWholeDocument` → Run**.
+2. The first time you run it, it will **automatically assign CTRL + ALT + A** as a shortcut.
+3. From then on, simply press **CTRL + ALT + A** to instantly format the document with:
+
+   * 1.5 line spacing
+   * Times New Roman, size 12, black font
+   * Justified paragraphs (left-aligned if too short)
+   * Standard legal margins
+
+*No further setup required.*
+
+</details>
 
 ---
 
 ## 📂 **Project Structure**
 
+<details>
+<summary>View Directory</summary>
+
 ```
 MasenoLawtomator/
 │
 ├── vba/
-│   ├── formatting.bas
-│   ├── numbering.bas
-│   ├── cleanup.bas
-│   └── citations.bas
+│   ├── formatting.bas     # Document formatting macro
+│   ├── numbering.bas      # Automatic numbering tools
+│   ├── cleanup.bas        # Document cleanup scripts
+│   └── citations.bas      # Citation helpers
 │
-└── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── DIRECTORY.md
+└── DIRECTORY.txt
 ```
 
-> All files in the `vba/` folder can be copied directly or downloaded.
+*All `.bas` files can be downloaded or copied into Word VBA editor.*
+
+</details>
 
 ---
 
@@ -96,7 +146,5 @@ See the `LICENSE` file for full terms.
 ## 👤 **Author**
 
 **James E. Limbe**
-
 Maseno University School of Law
-
 GitHub: **[B0mb37](https://github.com/B0mb37)**
