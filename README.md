@@ -6,9 +6,9 @@
 
 ## 🎓 **Overview**
 
-**MasenoLawtomator** is a lightweight legal-automation toolkit designed for **Maseno University Law students**, focusing on faster drafting and cleaner formatting.
+**MasenoLawtomator** is a lightweight legal automation toolkit designed for **Maseno University Law students**, focusing on faster drafting and cleaner formatting.
 
-This first version provides **Microsoft Word VBA macros** that automate formatting tasks and reduce repetitive work—no Git or programming knowledge needed.
+This first version provides **Microsoft Word VBA macros** that automate formatting tasks and reduce repetitive work; no Git or programming knowledge needed.
 
 ---
 
