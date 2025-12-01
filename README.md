@@ -1,16 +1,14 @@
 # 📘 **MasenoLawtomator**
 
-*A starter collection of VBA macros for Maseno University LLB w IT students.*
+*A starter collection of VBA macros for Maseno University LLB w/ IT students.*
 
 ---
 
 ## 🎓 **Overview**
 
-**MasenoLawtomator** is a lightweight legal automation toolkit designed to help **Maseno University Law students** draft faster and produce cleaner, properly formatted documents.
+**MasenoLawtomator** is a lightweight legal-automation toolkit designed for **Maseno University Law students**, focusing on faster drafting and cleaner formatting.
 
-This initial version focuses on **Microsoft Word VBA macros**, allowing students to automatically formattheir documents.
-
-The goal: make legal drafting easier, without needing to know Git or advanced programming.
+This first version provides **Microsoft Word VBA macros** that automate formatting tasks and reduce repetitive work—no Git or programming knowledge needed.
 
 ---
 
@@ -18,75 +16,71 @@ The goal: make legal drafting easier, without needing to know Git or advanced pr
 
 ### ✔️ **VBA Macros for Microsoft Word**
 
-* Auto-format assignments or clinic documents
-* Fix spacing & paragraph alignment
-* Legal-style numbered headings
-* Quick citation formating helpers
-* Cleanup tools (remove double spaces, fix broken numbering, etc.)
+* Auto-format assignments, memos & clinic documents
+* Fix spacing & alignment
+* Generate legal-style numbered headings
+* Quick citation formatting helpers
+* Cleanup tools (remove double spaces, fix numbering, etc.)
 
-### ✔️ **Ready-to-Use Macros**
+### ✔️ **Ready-to-Use `.bas` Files**
 
-All macros are available as `.bas` files in the repo and can also be **copied directly from GitHub** into the Word VBA editor.
+All macros are stored in the `vba/` folder and can be:
+
+* **Copied directly** from GitHub, or
+* **Imported** into Word through the VBA editor.
 
 ---
 
-## 🚀 **How to Use `formatting.bas`** (Press each step to drop down instructions)
+## 🚀 **Using `formatting.bas`**
+
+Press each step to expand instructions.
 
 <details>
-<summary><b>Step 1: Enable Developer Tab in Word</b></summary>
+<summary><b>Step 1: Enable Developer Tab</b></summary>
 
-1. Open Microsoft Word.
-2. Go to **File → Options → Customize Ribbon**.
-3. On the right side, check **Developer**.
-4. Click **OK**.
-
-*The Developer tab will now appear in your Word ribbon.*
+1. Word → **File → Options → Customize Ribbon**
+2. Check **Developer**
+3. Click **OK**
 
 </details>
 
 <details>
 <summary><b>Step 2: Enable Macros</b></summary>
 
-1. Go to **File → Options → Trust Center → Trust Center Settings → Macro Settings**.
-2. Select **Enable all macros** (or **Disable all macros with notification** if you want to approve macros each time).
-3. Click **OK**.
-
-*This allows your VBA macros to run safely.*
+1. Word → **File → Options → Trust Center**
+2. **Trust Center Settings → Macro Settings**
+3. Choose **Enable all macros** or **Disable with notification**
 
 </details>
 
 <details>
-<summary><b>Step 3: Import `formatting.bas`</b></summary>
+<summary><b>Step 3: Import <code>formatting.bas</code></b></summary>
 
-**Option A – Download and Import**
+**Option A – Download & Import**
 
-1. Click [`formatting.bas`](https://github.com/Maseno-Debate/MasenoLawtomator/blob/main/vba/formatting.bas) or go to the `vba/` folder → **Raw** → Right-click → **Save As**.
-2. Open Word → press **Alt + F11** to open the VBA editor.
-3. Go to **File → Import File…** → select the downloaded `.bas`.
-4. The module will now appear in your project.
+1. Open `formatting.bas` → **Raw → Save As**
+2. Word → **Alt + F11**
+3. **File → Import File…** → select `.bas`
 
 **Option B – Copy-Paste**
 
-1. Open [`formatting.bas`](https://github.com/Maseno-Debate/MasenoLawtomator/blob/main/vba/formatting.bas), → copy all code.
-2. Open Word → **Alt + F11**.
-3. Insert a new module → paste the code.
-4. Save the document.
+1. Open `formatting.bas` → copy code
+2. Word → **Alt + F11**
+3. Insert new module → paste → save
 
 </details>
 
 <details>
-<summary><b>Step 4: Run the Macro / Use Shortcut</b></summary>
+<summary><b>Step 4: Run or Use Shortcut</b></summary>
 
-1. Run via **Developer → Macros → select `FormatWholeDocument` → Run**.
-2. The first time you run it, it will **automatically assign CTRL + ALT + A** as a shortcut.
-3. From then on, simply press **CTRL + ALT + A** to instantly format the document with:
+1. **Developer → Macros → FormatWholeDocument → Run**
+2. First run assigns **CTRL + ALT + A** automatically
+3. Press **CTRL + ALT + A** anytime to format:
 
-   * 1.5 line spacing
-   * Times New Roman, size 12, black font
-   * Justified paragraphs (left-aligned if too short)
-   * Standard legal margins
-
-*No further setup required.*
+   * Times New Roman, 12
+   * 1.5 spacing
+   * Standard margins
+   * Justified paragraphs
 
 </details>
 
@@ -95,25 +89,23 @@ All macros are available as `.bas` files in the repo and can also be **copied di
 ## 📂 **Project Structure**
 
 <details>
-<summary>View Directory</summary>
+<summary><b>View Directory</b></summary>
 
 ```
 MasenoLawtomator/
 │
 ├── vba/
-│   ├── formatting.bas     # Document formatting macro
-│   ├── numbering.bas      # Automatic numbering tools
-│   ├── cleanup.bas        # Document cleanup scripts
-│   └── citations.bas      # Citation helpers
+│   ├── formatting.bas      # Document formatting macro
+│   ├── numbering.bas       # Automatic numbering tools
+│   ├── cleanup.bas         # Document cleanup scripts
+│   └── citations.bas       # Citation helpers
 │
-├── CONTRIBUTING.md
-├── LICENSE
+├── CONTRIBUTING.md         # Contribution guidelines
+├── LICENSE                 # Apache 2.0 license
 ├── README.md
 ├── DIRECTORY.md
 └── DIRECTORY.txt
 ```
-
-*All `.bas` files can be downloaded or copied into Word VBA editor.*
 
 </details>
 
@@ -121,17 +113,19 @@ MasenoLawtomator/
 
 ## 🛣️ **Future Additions**
 
-* More Word automation macros (opinions, submissions, affidavits)
-* Google Docs automation (Apps Script)
-* Case-law note organizers
-* Law clinic intake forms and report templates
+* Opinion, submissions & pleadings automation
+* Google Docs (Apps Script) version
+* Case-law & notes organizers
+* Clinic intake forms
+* Template generators (letters, affidavits, annexures)
 
 ---
 
 ## 🤝 **Contributing**
 
-**Contributors** who want to add new macros or update scripts can **clone the repo** or submit pull requests.
-Git is not required for users.
+Students wishing to contribute can **fork the repo**, create branches, and submit pull requests.
+
+No Git knowledge is needed for users—only for contributors.
 
 ---
 
