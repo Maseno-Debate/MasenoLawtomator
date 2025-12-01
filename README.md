@@ -8,7 +8,7 @@
 
 **MasenoLawtomator** is a lightweight legal automation toolkit designed to help **Maseno University Law students** draft faster and produce cleaner, properly formatted documents.
 
-This initial version focuses on **Microsoft Word VBA macros**, allowing students to automate formatting, numbering, citations, and document cleanup.
+This initial version focuses on **Microsoft Word VBA macros**, allowing students to automatically formattheir documents.
 
 The goal: make legal drafting easier, without needing to know Git or advanced programming.
 
@@ -31,7 +31,7 @@ All macros are available as `.bas` files in the repo and can also be **copied di
 
 ---
 
-## 🚀 **How to Use `formatting.bas`**
+## 🚀 **How to Use `formatting.bas`** (Press each step to drop down instructions)
 
 <details>
 <summary><b>Step 1: Enable Developer Tab in Word</b></summary>
