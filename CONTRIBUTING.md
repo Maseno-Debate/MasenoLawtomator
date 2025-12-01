@@ -1,118 +1,144 @@
-# 📢 **MasenoLawtomator Contribution Guidelines (Betty-Inspired Style)**
+# 📢 **MasenoLawtomator – Contribution Guidelines (Betty-Inspired)**
 
-Thank you for your interest in contributing to **MasenoLawtomator**!
-This project provides legal automation tools for Maseno University LLB students. Contributions (including VBA macros, Google Apps Scripts, or any other documentation suggestions) are welcome.
+Thank you for contributing to **MasenoLawtomator**, a legal-automation toolkit for Maseno University LLB students.
 
-All code **should follow Betty-inspired principles**: clear, consistent, and maintainable formatting, proper indentation, meaningful naming, and thorough commenting.
-
----
-
-## 🤝 **How to Contribute**
-
-### 1️⃣ Submit New VBA Macros or Scripts
-
-* Must address a **legal drafting or workflow problem**.
-* Name macros and modules **clearly and descriptively**.
-* Include **inline comments** explaining the purpose and key steps.
-* Test thoroughly in Microsoft Word (or Google Apps Script environment) before submission.
-* Save files as `.bas` (Word) or `.gs` (Google Apps Script).
+All submissions must follow **Betty-inspired principles**: clarity, consistency, meaningful naming, clean indentation, and strong commenting.
 
 ---
 
-### 2️⃣ Improve Existing Code
+<details>
+<summary><h2>🤝 How to Contribute</h2></summary>
 
-* Fix bugs or enhance functionality without breaking existing features.
-* Maintain **consistent indentation, spacing, naming, and commenting**.
-* Follow the repository’s **existing Betty-inspired style**.
+### **1️⃣ Submit New VBA or GAS Scripts**
 
----
-
-### 3️⃣ Documentation & Examples
-
-* Improve **README.md**, guides, or workflow instructions.
-* Provide **macro usage examples** for students.
-* Include screenshots or GIFs to make instructions more accessible.
+* Must solve a **real legal drafting / workflow problem**.
+* Name modules & macros **clearly and descriptively**.
+* Add **inline comments** and a **top comment block**.
+* Test thoroughly before submission.
+* Submit as `.bas` (VBA) or `.gs` (Google Apps Script).
 
 ---
 
-### 4️⃣ Reporting Issues
+### **2️⃣ Improve Existing Code**
 
-* Open a GitHub **Issue** with clear reproduction steps.
-* Include environment details (e.g., Word version, Windows/Mac, browser if relevant).
+* Fix bugs, add enhancements, or refactor.
+* Preserve **Betty-inspired style** and existing structure.
 
 ---
 
-## 🌟 **Contribution Workflow**
+### **3️⃣ Documentation**
 
-### Option A: Pull Request
+* Improve README, guides, or usage examples.
+* Add clear screenshots or GIFs when helpful.
 
-1. Fork the repository.
+---
 
-2. Create a branch for your feature or fix:
+### **4️⃣ Report Issues**
+
+* Open a GitHub Issue with clear steps, screenshots, and environment details.
+
+</details>
+
+---
+
+<details>
+<summary><h2>🌟 Workflow (Fork-First)</h2></summary>
+
+### **✔ Standard Workflow (Recommended)**
+
+1. **Fork** the repository.
+2. Create a new branch:
 
    ```bash
    git checkout -b feature-name
    ```
+3. Write clean, Betty-inspired code.
+4. Commit with descriptive messages.
+5. Push to your fork:
 
-3. Commit with a clear, descriptive message.
-
-4. Push the branch to your fork.
-
-5. Open a Pull Request to the main repository.
-
-6. Ensure code follows **Betty-inspired style**; reviewers may request corrections.
-
-### Option B: Direct File Submission
-
-* Students can submit `.bas` or `.gs` files directly via GitHub Issues or email the maintainer.
-* Ensure files follow **Betty-inspired formatting** before submission.
+   ```bash
+   git push origin feature-name
+   ```
+6. Open a **Pull Request** back to this repo.
+7. Make any corrections requested during review.
 
 ---
 
-## 📌 **Code Style Guidelines (Betty-Inspired)**
+### **📬 Alternative Submission**
 
-1. **Indentation**: Use **4 spaces per level**, no tabs.
-2. **Line Length**: Prefer **≤ 80 characters per line**; break long lines with `_` in VBA.
-3. **Naming Conventions**:
+For students unfamiliar with Git:
 
-   * Modules: `macro_name_module`
-   * Macros/Subs: `ActionDescription_Object` (e.g., `Format_Document`)
-   * Variables: lowercase with underscores (e.g., `total_cases`)
-4. **Spacing**:
+* Submit `.bas` or `.gs` files via **GitHub Issues** or **email** to the maintainer.
+* Files *must still* follow Betty-inspired formatting.
 
-   * One blank line between logical blocks
-   * Avoid trailing spaces
-5. **Comments**:
-
-   * Top-level comment block for every macro describing purpose, author, and usage
-   * Inline comments for key logic or complex steps
-6. **Structure & Syntax**:
-
-   * Always close blocks properly: `End Sub`, `End Function`, `End If`, etc.
-   * Indent blocks consistently
-7. **Consistency**: Maintain style consistent with the repository standards
-
-> PRs or submissions not following Betty-inspired principles may be returned for corrections.
+</details>
 
 ---
 
-## ⚖️ **Code of Conduct**
+<details>
+<summary><h2>📌 Code Style (Betty-Inspired)</h2></summary>
 
-* Be professional and respectful.
-* No offensive or inappropriate content.
-* Credit all contributors.
-* Support collaboration and mentorship.
+### **Indentation**
+
+* 4 spaces per level. No tabs.
+
+### **Line Length**
+
+* Prefer ≤ 80 characters (use `_` for line breaks in VBA).
+
+### **Naming**
+
+* **Modules:** `macro_name_module`
+* **Subs/Functions:** `Action_Object` (e.g., `Format_Document`)
+* **Variables:** lowercase with underscores (`total_cases`)
+
+### **Spacing**
+
+* One blank line between logic blocks.
+* No trailing spaces.
+
+### **Comments**
+
+* A top comment block for purpose + author.
+* Inline comments for key logic.
+
+### **Structure**
+
+* Always close blocks (`End Sub`, `End If`, etc.).
+* Consistent indentation is mandatory.
+
+> PRs not following these principles may be returned for fixes.
+
+</details>
 
 ---
 
-## 📄 **License**
+<details>
+<summary><h2>⚖️ Code of Conduct</h2></summary>
 
-All contributions are licensed under **Apache License 2.0**.
+* Be respectful and professional.
+* No inappropriate content.
+* Credit all collaborators.
+* Encourage mentorship and open collaboration.
+
+</details>
 
 ---
 
-## 👤 **Maintainer**
+<details>
+<summary><h2>📄 License</h2></summary>
 
-**James E. Limbe** – Maseno University School of Law
+This project is licensed under **Apache License 2.0**.
 
+</details>
+
+---
+
+<details>
+<summary><h2>👤 Maintainer</h2></summary>
+
+**James E. Limbe**
+Maseno University School of Law
 GitHub: [B0mb37](https://github.com/B0mb37)
+
+</details>
