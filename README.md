@@ -21,8 +21,7 @@ The goal: make legal drafting easier, without needing to know Git or advanced pr
 * Auto-format assignments or clinic documents
 * Fix spacing & paragraph alignment
 * Legal-style numbered headings
-* Insert issue statements or case brief skeletons
-* Quick citation insertion helpers
+* Quick citation formating helpers
 * Cleanup tools (remove double spaces, fix broken numbering, etc.)
 
 ### ✔️ **Ready-to-Use Macros**
