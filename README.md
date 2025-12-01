@@ -61,14 +61,14 @@ All macros are available as `.bas` files in the repo and can also be **copied di
 
 **Option A – Download and Import**
 
-1. Click [`formatting.bas`](https://github.com/Maseno-Debate/MasenoLawtomator/blob/main/vba/formatting.bas) in the `vba/` folder → **Raw** → Right-click → **Save As**.
+1. Click [`formatting.bas`](https://github.com/Maseno-Debate/MasenoLawtomator/blob/main/vba/formatting.bas) or go to the `vba/` folder → **Raw** → Right-click → **Save As**.
 2. Open Word → press **Alt + F11** to open the VBA editor.
 3. Go to **File → Import File…** → select the downloaded `.bas`.
 4. The module will now appear in your project.
 
 **Option B – Copy-Paste**
 
-1. Open [`formatting.bas`](https://github.com/Maseno-Debate/MasenoLawtomator/blob/main/vba/formatting.bas) in GitHub → copy all code.
+1. Open [`formatting.bas`](https://github.com/Maseno-Debate/MasenoLawtomator/blob/main/vba/formatting.bas), → copy all code.
 2. Open Word → **Alt + F11**.
 3. Insert a new module → paste the code.
 4. Save the document.
