@@ -125,7 +125,7 @@ MasenoLawtomator/
 
 Students wishing to contribute can **fork the repo**, create branches, and submit pull requests.
 
-No Git knowledge is needed for users—only for contributors.
+No Git knowledge is needed for users, only for contributors. To contribute, follow the guidelines on [`CONTRIBUTING.md`](https://github.com/Maseno-Debate/MasenoLawtomator/blob/main/CONTRIBUTING.md)
 
 ---
 
